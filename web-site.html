@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailor's Company</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f6f5f3;
+      color: #333;
+    }
+
+    header {
+      background: #1e1e2f;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .card p {
+      padding: 1rem;
+      font-size: 1rem;
+    }
+
+    footer {
+      background: #1e1e2f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kixx Tailoring Company</h1>
+    <p>Crafting Elegance, Stitch by Stitch</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <img src="yt.jpg" alt="Tailoring tools" />
+      <p>Tools of the trade: scissors, threads, buttons, and precision instruments used by our master tailors.</p>
+    </div>
+    <div class="card">
+      <img src="tr.jpg" alt="Tailor at work" />
+      <p>Every suit begins with focus and craftsmanship. Our tailors sew passion into every piece.</p>
+    </div>
+    <div class="card">
+      <img src="bear.jpg" alt="Finished suit" />
+      <p>Elegance completed. Our suits are tailored to perfection — fit for every gentleman.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Kixx Tailoring Company. All rights reserved.
+  </footer>
+
+  <script>
+    // Optional JS: Animation or future interactions can go here
+    console.log("Welcome to Kixx Tailoring Company");
+  </script>
+</body>
+</html>
